@@ -1,0 +1,136 @@
+{"intents": [
+        {"tag": "stomach-ache",
+         "patterns": ["stomach pain", "pain in stomach", "stomach ache", "loose motion", "frequent motion", "diarrhoea", "burps", "vomitting", "puking", "discomfort in stomach", "slight pain in stomach", "indigestion"],
+         "responses": ["These are symtoms of food poisoning. Try incorporate spices like turmeric, cumin, fennel seeds, coriander, and hing (asafetida) in your diet. There migh be indigestion or your stomach might not be clear. Try going to the washroom anh have some raw peppermint. If you have gas try consuming edible basic substances. To be safe, consult a doctor. To find doctors around you, just type doctors around me."]
+        },
+	{"tag": "hello",
+         "patterns": ["Hi!", "Hello", "hey", "sup", "whats up", "ssup", "hiii", "good moring", "good evening", "good afternoon"],
+         "responses": ["Hey! Greeting from the heal.io team. I am your eDoctor. How can I assist you today?"]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Got to go", "Chao", "Adios"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon.",
+					  "Thanks for visiting. If you don't mind you could leave us a feedback.", "Bye, Get Well Soon!", "Bye",
+					  "Ciao", "I hope to see you soon", "Adios"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Gracias"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure", "No Problem", "Glad to Help", "Your Welcome", "No Thanks and no sorry in friendships"]
+        },
+        {"tag": "fever",
+         "patterns": ["High Body Temperature", "Headache", "Body Aches", "High Temperature", "Body pains", "My body aches", "Shivering", "Chills", "Rapid heart beating", "Excessive Sweating", "My body aches", "My head aches", "my head pains", "I am shivering", "my heart beat is high", "I am swaeting too much"],
+         "responses": ["You seem to have fever. Remedies for fever include staying hydrated. Drink plenty of water and fluids, and avoid alcohol or caffeinated beverages, which can contribute to dehydration. Popsicles can also be cooling and provide fluids while also soothing a sore throat if that is present. Avoid exrerting yourself and take plenty of rest. To find doctors around you, just type doctors around me. Some medicines that may help you are Crocin. Please have a crocin at your own risk. The heal.io team is not responsible for any side effects."]
+        },
+		{"tag": "common cold",
+         "patterns": ["I have a runnnig nose ", "running nose", "stffy nose", "sore throat", "I have a sore throat", "I am coughing", "coughing", "I feel congestion", "I have been sneezing", "sneezing", "I am not feeling well", "Mild headache", "I have a mild headache"],
+         "responses": ["These are the symptoms of common cold. You should consider chewing basil leaves and have ginger with water. If your nose if blocked you could put one drop of otravin in your blocked nostril. You could have hot salt water. To find doctors around you, just type doctors around me."]
+		},
+		{"tag": "cough",
+         "patterns": ["I am coughing", "cough", "running nose", "fatigue", "I am feeling tired", "I am sneezing constatnly", "sneezing", "constant sneezing", "I have been sneezing", "My throat hurts", "My throat hurts when I eat or swallow", "My thraot feels dry", "dry throat"],
+         "responses": ["These are the symptoms of cough.Some home remidies are try conuming honey with ginger. Try having some raw licorice.To be on the safer side, you should consult a doctor. To find doctors around you, just type doctors around me."]
+	},
+        {"tag": "acne",
+         "patterns": ["I have pimples","I have pimples on my face", "I have pimples on my back", "I have red spots", "I have red boils on my body"],
+         "responses": ["You may have acne. Try applying tea tree or jojba oil or aloe vera or honey. Drinking green tea is another harmless way. It also has many other benefits. If the above remedies do not work try using Benzoyl peroxide. Please try Benzoyl peroxide at your own risks it may have side effects. To find doctors to help with the issue, just type doctors around me."]
+        },
+        {"tag": "dehydration",
+         "patterns": ["I am feeling dizzy", "I am feeling extremely tired", "My mouth, lips and eyes are dry", "I am urinating small amounts infrequently","I am not urinating enough"],
+         "responses": ["You may be suffering from dehydration. Try sipping small amounts of water. Having drinks that contain electrolytes are beneficial. Popsicles and sports drinks are also another way of curing dehydration. To find doctors around you, just type doctors around me."]
+        },
+        {"tag": "type 1 diabetes",
+         "patterns": ["I am feeling very thirsty", "I am urinating more frequently than usual", "I have lost weight", "I have lost muscle mass", "Wounds heal slower than usual.", "My vision is blurred"],
+         "responses": ["You may have Type-1 Diabetes. Try applying Aloe vera or bilberry extract. You could try eating fenugreek or cinnamon or garlic or okra or bitter melon. To find doctors around you, just type doctors around me."]
+        },
+        {"tag": "type 2 diabetes",
+         "patterns": ["I am feeling very thirsty", "I am urinating more frequently than usual", "I have lost weight", "I have lost muscle mass", "Wounds heal slower than usual.", "My vision is blurred"],
+         "responses": ["You may have Type-2 Diabetes. Try consuming apple cider vinegar, fiber, barley, chromium and zinc. You also apply aloe vera and have fenugreek seeds side by side.To find doctors around you, just type doctors around me."]
+        },
+        {"tag": "depression",
+         "patterns": ["I constantly feel sad.", "I am losing interest in things.", "I am losing motivation", "I am not enjoying my life", "I feel teary-eyed.", "I feel guilty", "i feel anxious", "I feel irritable", "I am finding it hard to make decisions.", "I cannot tolerate things or people.", "I feel helpless", "I feel hopeless", "I have a low self-esteem", "I feel worried"],
+         "responses": ["You may be suffering from depression. Try talking to someone and try making new friends. Exploring new hobbies and passions is a way to start fresh. If not consider talking to a counseller. ", "You may be suffering from depression. Try making more friends"]
+        },
+        {"tag": "anxiety",
+         "patterns": ["I feel restless", "I feel dreaded", "I constantly feel on edge", "I feel difficulty concentrating", "I feel irritated", "I feel dizzy", "I feel tired", "I can feel a noticeably fast heartbeat", "My muscles ache", "I feel tensed", "I tend to tremble or shake", "I have a dry mouth", "I sweat excessively", "I experience short breath", "I have a stomach-ache", "I am feeling sick", "I have a headache", "I am experiencing insomnia"],
+         "responses": ["You may be suffering from anxiety. Try to stay active and exercise. Do not consume alcohol (if you do)and stop smoking (if you do)", "You may be suffering from anxiety. Try to stop consuming caffeine or you could try sleeping. Meditation is one of the best remidies. To find doctors around you, just type doctors around me."]
+        },
+        {"tag": "asthma",
+         "patterns": ["I am wheezing", "I am experiencing a shortness of breath", "I am experiencing a congestion in my chest", "I am coughing"],
+         "responses": ["You may be suffering from asthma. Try to consume more of caffeine. Try applying eucalyptus essential oil or mustard oil. Try sitting upright and taking slow deep breaths. To find doctors around you, just type doctors around me."]
+        },
+        {"tag": "epilipsy",
+         "patterns": ["I am experiencing a strange feeling hard to describe", "I am feeling a rising sensation inside my stomach", "I am experiencing a feeling of deja vu", "I am experiencing an unusual taste or smell", "I am experiencing a tingling sensation", "I am experiencing a sudden intense feeling of fear or joy", "I am experiencing stiffness or twitching in certain parts of my body"],
+         "responses": ["You may be suffering from epilipsy. Try consuming more vitamins and minerals like (Calcium, magnesium, selenium). To find doctors around you, just type doctors around me."]
+        },
+        {"tag": "food poisoning",
+		 "patterns": ["I am feeling sick or nauseus", "I am vomiting", "I am suffering from diarrhoea", "I am experiencing cramps in my stomach", "I am experiencing a lack of energy in my body", "I am experiencing a loss of appetite", "My temperature is high", "My muscles are aching", "I am feeling chilly"],
+		 "responses": ["You may be suffering from food poisoning. Try consuming lemon, ginger, yogurt, fenugreek seeds, bananas, honey and garlic. Try having apples they are the best foods to have during food poisoning. To find doctors around you, just type doctors around me."]
+		},
+		{"tag": "insomnia",
+	 	"patterns": ["I find it difficult to fall asleep", "I lie awake for long periods at night", "I wake up several times during the night", "I wake up early in the morning and cannot fall back asleep", "I do not feel refreshed when I get up", "I find it hard to take a nap during the day", "I feel tired and irritated"],
+		 "responses": ["You may be suffering from insomnia. Try to avoid consuming drugs that disrupt sleep (nicotine, caffeine, alcohol). Try to eat lighter meals at night at least two hours before sleeping. Try to stay active, but exercise earlier in the day. Try to take a hot shower or a bath at the end of your day. Try to avoid screens one to two hours prior to sleeping.To find doctors around you, just type doctors around me."]
+		},
+
+		{"tag": "kidney stone",
+         "patterns": ["I am feeling an ache in my lower back", " My lower back hurts","I am going through periods of unbearable pain on one side of my stomach", "I feel restless and I am unable to lie still", "I have nausea and have to urinate more then often","I feel immense pain while urinating","Sometimes I see blood in my urine"],
+         "responses": ["You may be suffering from kidney stone. Drinking water is one of the easiest ways to prevent and treat kidney stones. You can prevent this by adding nutrients such as Lemon juice, Basil, Apple cider vinegar, Wheatgrass juice, celery and kidney bean broth. To find doctors around you, just type doctors around me."]
+        },
+		{"tag": "measles",
+		 "patterns": ["I have a lost on appetite", "I also have a runny nose.", "I have watery eyes", "I have swollen eyelids", "I feel tired.", "I have very high temperature", "I have pain and cough"],
+		 "responses": ["You maybe suffering from measles. Drink plenty of water, fruit juice and herbal tea to replace fluids lost by fever and sweating. Take rest and avoid busy activities, To find doctors around you, just type doctors around me."]
+		},
+		{"tag": "malaria",
+		 "patterns": ["I have high temperature", "I have a headache.", "I have chills and muscle pains", "I have diarrhoea", "I don't feel well."],
+		 "responses": ["You maybe suffering from malaria. Try using cinnamon and turmeric in your food. HAve orange and Sweet lime juice. You could also have some ginger and grape juice. To be safe please consult a doctor. To know more about doctors. Type, Doctors around me"]
+		},
+		{"tag": "migraine",
+		 "patterns": ["I have a splitting headache", "I have a feeling of nausea and I am vomiting", "I have poor concentration.", "I feel very cold or hot", "I am sweating a lot."],
+		 "responses": ["You may be suffering from a migraine.Use a cold pack or a heat compress. Dim the lights. Having some caffine would make you feel better. To find doctors around you, just type doctors around me."]
+		},
+		{"tag": "sore throat",
+	 	"patterns": ["I have a scratchy sensation in my throat", "I have pain when swallowing", "I have a hoarse voice."],
+	 	"responses": ["You may be suffering from a sore throat. Gargle with warm salt water. Don't forget to stay hydrated and have a drop of honey after every 4 hours. To find doctors around you, just type doctors around me."]
+		},
+
+		{"tag": "tooth decay",
+	 	"patterns": ["I have pain in my teeth", "I have sharp pains when I am eating or when I bite"],
+		"responses": ["You maybe suffering from a tooth decay. Apply aloe vera paste or gel. Avoid having sugary drinks or food. You could also have some licorice root. To find doctors around you, just type doctors around me."]
+		},
+		{"tag": "whooping cough",
+	 	"patterns": ["I have a runny nose", "I have sneezing and low grade fever", "I have fatigue.", "I have watery eyes"],
+		 "responses": ["You maybe suffering from a whooping cough. Have a lot of fluids, like soups and juices for higher immunity for your whooping cough, also have smaller meals. Don't forget to take plenty of rest. To find doctors around you, just type doctors around me."]
+		},
+		{"tag": "sunburn",
+	 	"patterns": ["My skin is peeling", "My skin is hot to touch and is itching", "My skin has swollen up in someplaces"],
+		 "responses": ["You may be suffering from a sunburn. Use a cold pack to ease your burns or have cool water to soothe your skin or apply apple honey. You could also applt honey and oatmeal. To find doctors around you, just type doctors around me."]
+		},
+		{"tag": "Conjunctivitis",
+		"patterns": ["I have pain in my eyes", "My eyes have become red", "I feel itchiness in my eyes","My eyes are watery"],
+		 "responses": ["You maybe suffering from conjunctivitis. Use a cold compress on your eyes or you could try taking steam. Consult ophthalmologist(eye doctor) and use some prescribed eyedrops. To find doctors around you, just type doctors around me."]
+		},
+		{"tag": "Blood poisoning",
+		"patterns": ["I am bluish and pale", "I am breathing very fast", "I am cold to the touch","I am difficult to wake"],
+		 "responses": ["You may be suffering from blood poisoning aslo known as sepsis. Consult a doctor and call the nearby hospital, you will have prescirbed medication for this ailment. Try taking steam. To find doctors around you, just type doctors around me."]
+		},
+		{"tag": "Bronchitis",
+		"patterns": ["I am feeling tired", "I have cough and a sore throat", "I have a runny nose"],
+		 "responses": ["You may be suffering from Bronchitis. Add turmeric, ginger, garlic to your food. Try taking steam. To find doctors around you, just type doctors around me."]
+		},
+	{"tag": "Doctors Around Me",
+         "patterns": ["find doctors around me", "doctors near me", "best doctor", "find a doctor", "help to find a doctor", "find doctors near me", "treament options", "doctor around me", "Find a doctor"],
+         "responses": ["I found two doctors around you.   Doctor Vipul Maru from Jeevan Jyoti Medical Care Centre and  Doctor Hema Rane. To book an appointment just type book an appoitment."]
+},
+	{"tag": "Doctor Address Vipul",
+         "patterns": ["address of vipul maru", "where does vipul maru sit", "address vipul maru", "address of doctor vipul maru", "where is doctor vipul's clinic"],
+         "responses": ["4, Raj crystal bldg, royal complex, chandavarkar rd, eksar rd, borivali west, Borivali West, Mumbai, Maharashtra 400092"]
+},
+	
+{"tag": "Doctor Address Hema",
+         "patterns": ["address of hema rane", "where does hema rane sit", "address hema rane", "address of doctor hema rane", "where is doctor hema's clinic"],
+         "responses": ["Rane Anand Medical Center, Ravji Premi Apartment, S V Road, Borivali West, Mumbai, Maharashtra 400092"]
+},
+	{"tag": "Appoitment Schedule",
+         "patterns": ["Schedule my appointment", "Schedule my appointment with Dr. Hema", "Schedule my appointment with Dr. Vipul", "Book my appoitment with Hema", "Book my appointment with Vipul", "Book my appointment"],
+         "responses": ["Your appointment has been scheduled. For more information call us on 9654089904"]
+}
+]
+}
