@@ -1,0 +1,2 @@
+# heal.io
+heal.io is a chatbot model which is similar to home assistants but specialises in the home remedial field for medical issues. You can use this chatbot and mention your symptoms and it would give you an accurate response of what you are suffering from. This chatbot can also find doctors around you and book appointments with them. This AI-powered software is still in its beta programme and currently has an array of 25 medical issues that it recommends and help you with. Since this product is powered by Google Colaboratory it can be accessed from any device. 
